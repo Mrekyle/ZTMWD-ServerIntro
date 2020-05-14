@@ -19,7 +19,7 @@ const user = {
 		hobby: 'Skating',
 	}
 
-app.get('/', (req, res) => { // Wont work, As i am currently not being posted amy responses
+app.post('/', (req, res) => { // Wont work, As i am currently not being posted amy responses
 	const user = {
 		name: 'Kyle',
 		hobby: 'Programming',
